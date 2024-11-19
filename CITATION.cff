@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: Please cite this repository thusly.
+title: GCMD _enhanced_
+type: dataset
+repository-code: 'https://github.com/brandonnodnarb/GCMD-E'
+authors:
+      - family-names: Whitehead
+        given-names: Brandon
+        orcid: 'https://orcid.org/0000-0002-0337-8610'
+version: '0.1'
+license: CC-BY-4.0 #'https://creativecommons.org/licenses/by/4.0/'
+date-released: '2024-11-11'
+abstract: >-
+  Mappings between GCMD science keywords based on the similarity of their definitions.
+#doi: will be populated on release
