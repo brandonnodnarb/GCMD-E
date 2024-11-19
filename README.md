@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/890683321.svg)](https://doi.org/10.5281/zenodo.14183686)
+
 # GCMD _Enhanced_ (GCMD-E)
 The Global Change Master Directory ([GCMD](https://gcmd.earthdata.nasa.gov/)) is a set of keywords developed by NASA to standardize metadata terminology for data discovery [^7][^8]. GCMD has been developed and curated since the late 80's and now serves to tag and index thousands of data sets [^4] and is openly available for reuse as it is in the public domain ([CC0 license](https://www.earthdata.nasa.gov/data/tools/idn/gcmd-keyword-viewer)).
 
