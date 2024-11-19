@@ -12,4 +12,4 @@ license: CC-BY-4.0 #'https://creativecommons.org/licenses/by/4.0/'
 date-released: '2024-11-11'
 abstract: >-
   Mappings between GCMD science keywords based on the similarity of their definitions.
-#doi: will be populated on release
+doi: https://doi.org/10.5281/zenodo.14183686
