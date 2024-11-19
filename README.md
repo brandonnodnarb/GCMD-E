@@ -7,7 +7,7 @@ While investigating GCMD concepts for a separate project [^6], inconsistencies i
 
 This repository provides the first iteration in providing relationships between related terms for the [science keywords](https://gcmd.earthdata.nasa.gov/static/kms/) category. The current release inserts `skos:exactMatch` relationships between concepts having the exact same natural language definition (verbatim), or very near that (~98% similarity), using automated text comparison tools and a heap of manual effort. Figure 2 provides an illustration of where the predicates have been inserted using the concepts already depicted figure 1.
 
-The _enhanced_ science keyword terms are available as a download [in the src directory of this repository](). They have also been uploaded to ESIP's Community Ontology Repository ([COR](http://cor.esipfed.org)).
+The _enhanced_ science keyword terms are available to download as a turtle file (ttl) in this repository ([GCMD_v19.9_enhanced.ttl](GCMD_v19.9_enhanced.ttl)). They have also been uploaded to ESIP's Community Ontology Repository ([COR](http://cor.esipfed.org)).
 
 
 Figure 1. The concept ```STRATIGRAPHIC SEQUENCE``` as found in GCMD.
