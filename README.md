@@ -80,27 +80,27 @@ c11 --"skos:prefLabel"--> stratSeq
 c12 --"skos:prefLabel"--> stratSeq
 c13 --"skos:prefLabel"--> stratSeq
 
-def1 --"skos:definition"--> c1
-cn1 --"skos:changeNote"--> c1
+def1 <--"skos:definition"-- c1
+cn1 <--"skos:changeNote"-- c1
 
-def2 --"skos:definition"--> c2
-def2 --"skos:definition"--> c3
-def2 --"skos:definition"--> c4
-cn2 --"skos:changeNote"--> c4
+def2 <--"skos:definition"-- c2
+def2 <--"skos:definition"-- c3
+def2 <--"skos:definition"-- c4
+cn2 <--"skos:changeNote"-- c4
 
-def3 --"skos:definition"--> c5
-def3 --"skos:definition"--> c6
-def3 --"skos:definition"--> c7
+def3 <--"skos:definition"-- c5
+def3 <--"skos:definition"-- c6
+def3 <--"skos:definition"-- c7
 
-def4 --"skos:definition"--> c8
-def4 --"skos:definition"--> c9
-def4 --"skos:definition"--> c10
+def4 <--"skos:definition"-- c8
+def4 <--"skos:definition"-- c9
+def4 <--"skos:definition"-- c10
 
-def5 --"skos:definition"--> c11
+def5 <--"skos:definition"-- c11
 
-def6 --"skos:definition"--> c12
-def6 --"skos:definition"--> c13
-cn3 --"skos:changeNote"--> c13
+def6 <--"skos:definition"-- c12
+def6 <--"skos:definition"-- c13
+cn3 <--"skos:changeNote"-- c13
 
 classDef def fill:#eeeeee,stroke:#333,stroke-width:3px
 classDef cn fill:#e3edf6,stroke:#333,stroke-width:3px
@@ -194,33 +194,33 @@ c11 --"skos:prefLabel"--> stratSeq
 c12 --"skos:prefLabel"--> stratSeq
 c13 --"skos:prefLabel"--> stratSeq
 
-def1 --"skos:definition"--> c1
-cn1 --"skos:changeNote"--> c1
+def1 <--"skos:definition"-- c1
+cn1 <--"skos:changeNote"-- c1
 
 c2 <--"skos:exactMatch"--> c3
 c3 <--"skos:exactMatch"--> c4
-def2 --"skos:definition"--> c2
-def2 --"skos:definition"--> c3
-def2 --"skos:definition"--> c4
+def2 <--"skos:definition"-- c2
+def2 <--"skos:definition"-- c3
+def2 <--"skos:definition"-- c4
 
 c5 <--"skos:exactMatch"--> c6
 c6 <--"skos:exactMatch"--> c7
-def3 --"skos:definition"--> c5
-def3 --"skos:definition"--> c6
-def3 --"skos:definition"--> c7
+def3 <--"skos:definition"-- c5
+def3 <--"skos:definition"-- c6
+def3 <--"skos:definition"-- c7
 
 c8 <--"skos:exactMatch"--> c9
 c9 <--"skos:exactMatch"--> c10
-def4 --"skos:definition"--> c8
-def4 --"skos:definition"--> c9
-def4 --"skos:definition"--> c10
+def4 <--"skos:definition"-- c8
+def4 <--"skos:definition"-- c9
+def4 <--"skos:definition"-- c10
 
-def5 --"skos:definition"--> c11
+def5 <--"skos:definition"-- c11
 
 c12 <--"skos:exactMatch"--> c13
-def6 --"skos:definition"--> c12
-def6 --"skos:definition"--> c13
-cn3 --"skos:changeNote"--> c13
+def6 <--"skos:definition"-- c12
+def6 <--"skos:definition"-- c13
+cn3 <--"skos:changeNote"-- c13
 
 classDef def fill:#eeeeee,stroke:#333,stroke-width:3px
 classDef cn fill:#e3edf6,stroke:#333,stroke-width:3px
