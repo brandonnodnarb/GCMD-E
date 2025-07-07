@@ -202,6 +202,7 @@ c3 <--"skos:exactMatch"--> c4
 def2 --"skos:definition"--> c2
 def2 --"skos:definition"--> c3
 def2 --"skos:definition"--> c4
+cn2 --"skos:scopeNote"--> c2
 
 c5 <--"skos:exactMatch"--> c6
 c6 <--"skos:exactMatch"--> c7
